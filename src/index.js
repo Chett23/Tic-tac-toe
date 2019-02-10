@@ -143,3 +143,17 @@ function calculateWinner (squares) {
     }
     return null;
 }
+
+/**
+ *  function Winner(arr1){
+ *      if(arr1[0][0] === arr1[0][1] && arr1[0][2] ||
+ *          arr1[1][0] === arr1[1][1] && arr1[1][2] ||
+ *          arr1[2][0] === arr1[2][1] && arr1[2][2] ||
+ *          arr1[0][0] === arr1[1][0] && arr1[2][0] ||
+ *          arr1[0][1] === arr1[1][1] && arr1[2][1] ||
+ *          arr1[0][2] === arr1[1][2] && arr1[2][2] ||
+ *          arr1[0][0] === arr1[1][1] && arr1[2][2] ||
+ *          arr1[0][2] === arr1[1][1] && arr1[2][0] ||
+ *          )
+ *  }
+ */
